@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1b2d60;
+}
+.formulario{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'calibri';
+    color: white;
+}
+.titulo{
+    margin-bottom: 20px;
+}
+.caja{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'calibri';
+    font-size: 14px;
+    border-left: 20px solid #5b7fc4;
+    border-right: 20px solid #5b7fc4;
+    transition: all .3s ease;
+}
+.caja:hover, .caja:focus{
+    border-left: 20px solid #4bcfef;
+    border-right: 20px solid #4bcfef;
+
+}
+.terminos1{
+    text-align: center;
+}
+.terminos2{
+    text-decoration: none;
+    color: #3acde0;
+    transition: all .3s ease;
+}
+.terminos2:hover, .terminos2:focus{
+    color: #33b1c1;
+}
+.btn1{
+    padding: 10px;
+    width: 100%;
+    background: #2f70c7;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: all .5s ease;
+}
+.btn1:hover, .btn1:focus{
+    background: #4f87d4;
+    cursor: pointer;
+}
+.cuenta{
+    color: #3acde0;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    transition: all .3s ease;
+}
+.cuenta:hover, .cuenta:focus{
+    color: #33b1c1;
+}
